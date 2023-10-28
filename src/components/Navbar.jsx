@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
@@ -22,11 +23,32 @@ const Navbar = () => {
 
       {/* Menu */}
       <div>
-        <ul className="hidden md:flex">
-          <li className="px-4 cursor-pointer">Home</li>
-          <li className="px-4 cursor-pointer">About</li>
-          <li className="px-4 cursor-pointer">Skills</li>
-          <li className="px-4 cursor-pointer">Contact</li>
+        <ul className="hidden md:flex font-semibold text-xl">
+          <li className="px-4 cursor-pointer">
+            <Link to="home" smooth={true} duration={700}>
+              Home
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer">
+            <Link to="about" smooth={true} duration={700}>
+              About
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer">
+            <Link to="skills" smooth={true} duration={700}>
+              Skills
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer">
+            <Link to="projects" smooth={true} duration={700}>
+              Projects
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer">
+            <Link to="contact" smooth={true} duration={700}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -44,10 +66,56 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
           }
         >
-          <li className="px-4 cursor-pointer py-6 text-4xl">Home</li>
-          <li className="px-4 cursor-pointer py-6 text-4xl">About</li>
-          <li className="px-4 cursor-pointer py-6 text-4xl">Skills</li>
-          <li className="px-4 cursor-pointer py-6 text-4xl">Contact</li>
+          <li className="px-4 cursor-pointer py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="home"
+              smooth={true}
+              duration={700}
+            >
+              Home
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="about"
+              smooth={true}
+              duration={700}
+            >
+              About
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="skills"
+              smooth={true}
+              duration={700}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="projects"
+              smooth={true}
+              duration={700}
+            >
+              Projects
+            </Link>
+            </li>
+          <li className="px-4 cursor-pointer py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="contact"
+              smooth={true}
+              duration={700}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
