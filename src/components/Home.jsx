@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import CV from "../assets/CV.pdf";
 
 const Home = () => {
   return (
@@ -12,14 +13,19 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-400 ">
           I'm a Web developer
         </h2>
-        <p className="text-gray-400 py-4 max-w-[700px] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          minus perferendis expedita voluptas explicabo sint iste. Voluptate
-          aperiam maiores explicabo?
+        <p className="text-gray-400 py-4 max-w-[700px] text-lg ">
+          I have a strong enthusiasm for developing amazing user experiences
+          using React JS as a web development framework. I'm passionate about
+          creating stunning, responsive, and high-performing web apps. I also
+          make it my mission to stay current with the newest developments in web
+          development.
         </p>
         <div>
           <button className="group text-white border-2 p-3 flex items-center hover:bg-[#db3a34] hover:border-[#db3a34] ">
-            See More <HiArrowNarrowRight className="ml-2 group-hover:rotate-90 duration-300" />
+            <a href={CV} className="flex items-center" download>
+              Download CV{" "}
+              <HiArrowNarrowRight className="ml-2 group-hover:rotate-90 duration-300" />
+            </a>
           </button>
         </div>
       </div>

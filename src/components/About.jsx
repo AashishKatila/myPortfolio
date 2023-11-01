@@ -12,15 +12,17 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 items-center">
           <div className="sm:text-right text-4xl font-bold ">
             <p>Hi, I'm Aashish, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              quam a doloribus magni amet iusto harum quos excepturi. Iste sequi
-              accusamus rem tempore sed illo.
+            <p className="text-lg">
+              I'm a dedicated React JS developer on a mission to
+              create exceptional web experiences. With a love for coding,
+              problem-solving, and a commitment to React.js, I craft standout
+              web applications. Beyond the code, I'm an explorer of all things
+              web development. Let's embark on a journey to bring your web visions to life.
             </p>
           </div>
         </div>

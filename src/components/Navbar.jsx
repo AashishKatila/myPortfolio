@@ -18,12 +18,14 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] px-4 bg-[#0a192f] flex justify-between items-center text-gray-300">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "120px" }} />
+      <Link to="home" smooth={true} duration={700}>
+        <img className="hover:cursor-pointer" src={Logo} alt="Logo" style={{ width: "120px" }} />
+        </Link>
       </div>
 
       {/* Menu */}
       <div>
-        <ul className="hidden md:flex font-semibold text-xl">
+        <ul className="hidden md:flex font-semibold text-2xl">
           <li className="px-4 cursor-pointer">
             <Link to="home" smooth={true} duration={700}>
               Home
@@ -125,7 +127,7 @@ const Navbar = () => {
           <li className="px-4 cursor-pointer w-[160px] h-[60px] bg-blue-700 flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300  ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/aashish-katila-1361241a3/" target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -133,7 +135,7 @@ const Navbar = () => {
           <li className="px-4 cursor-pointer w-[160px] h-[60px] bg-[#333333] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300  ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/AashishKatila" target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -141,7 +143,7 @@ const Navbar = () => {
           <li className="px-4 cursor-pointer w-[160px] h-[60px] bg-red-500 flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300  ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:aashishkatila@gmail.com" target="_blank"
             >
               Gmail <HiOutlineMail size={30} />
             </a>
@@ -149,7 +151,7 @@ const Navbar = () => {
           <li className="px-4 cursor-pointer w-[160px] h-[60px] bg-blue-600 flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300  ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.facebook.com/Aashis03" target="_blank"
             >
               Facebook <FaFacebook size={30} />
             </a>
