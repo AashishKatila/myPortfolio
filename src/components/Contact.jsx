@@ -24,14 +24,14 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2 "
+          className="bg-[#ccd6f6] p-2 placeholder-gray-800 "
           type="text"
           placeholder="Name"
           name="name"
           required
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6] "
+          className="my-4 p-2 bg-[#ccd6f6] placeholder-gray-800 "
           type="email"
           placeholder="Email"
           name="email"
