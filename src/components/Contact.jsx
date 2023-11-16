@@ -5,12 +5,12 @@ const Contact = () => {
     <div
       name="contact"
       className=" w-full h-screen bg-[#0a192f] flex justify-center items-center
-    p-4 "
+    "
     >
       <form
         action="https://getform.io/f/07210d4c-4134-43b5-ae82-5bc4cf7bcf99"
         method="POST"
-        className="flex flex-col justify-center max-w-[1000px] w-full h-full"
+        className="flex flex-col justify-center max-w-[1000px] w-full h-full p-4 "
       >
         <div className="pb-8">
           <p className="font-bold text-4xl inline text-gray-300 border-b-4 border-[#db3a34]">
