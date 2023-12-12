@@ -16,7 +16,7 @@ const Navbar = () => {
     setnav(!nav);
   };
   return (
-    <div className="fixed w-full h-[80px] px-4 bg-[#0a192f] flex justify-between items-center text-gray-300">
+    <div className="fixed w-full h-[80px] bg-[#0a192f] flex justify-between items-center text-gray-300">
       <div>
       <Link to="home" smooth={true} duration={700}>
         <img className="hover:cursor-pointer" src={Logo} alt="Logo" style={{ width: "120px" }} />

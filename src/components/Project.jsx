@@ -4,7 +4,7 @@ import Pokemon from "../assets/pokemon.png";
 import Ecommerce from "../assets/ecommerce.png";
 import Movieland from "../assets/movieland.png";
 import Weather from "../assets/weather.png";
-import Dance from "../assets/dance.png";
+import TypingTest from "../assets/typingTest.png";
 
 const Project = () => {
   return (
@@ -157,7 +157,7 @@ const Project = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Dance})` }}
+            style={{ backgroundImage: `url(${TypingTest})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
