@@ -1,7 +1,7 @@
 import React from "react";
 import Notes from "../assets/note.png";
 import Pokemon from "../assets/pokemon.png";
-import Ecommerce from "../assets/ecommerce.png";
+import Movielist from "../assets/movieList.png";
 import Movieland from "../assets/movieland.png";
 import Weather from "../assets/weather.png";
 import TypingTest from "../assets/typingTest.png";
@@ -75,22 +75,22 @@ const Project = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Ecommerce})` }}
+            style={{ backgroundImage: `url(${Movielist})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100  ">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                Ecommerce
+              Movielist
               </span>
 
               <div className="pt-8 text-center ">
-                <a href="https://bespoke-hotteok-7914f8.netlify.app/" target="_blank">
+                <a href="https://frolicking-yeot-60aa2a.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/AashishKatila/Ecommerce1" target="_blank">
+                <a href="https://github.com/AashishKatila/movieList" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
@@ -113,7 +113,7 @@ const Project = () => {
               </span>
 
               <div className="pt-8 text-center ">
-                <a href="https://654241cdd66ac737312ed2a5--graceful-kheer-bb46dc.netlify.app/" target="_blank">
+                <a href="https://unrivaled-boba-a1aab5.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
